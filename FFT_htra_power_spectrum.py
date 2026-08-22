@@ -48,7 +48,7 @@ plt.xlim(0,x_max)
 plt.ylim(0,y_max) 
 plt.xlabel("Frequency (Hz)")
 plt.ylabel("Power")
-plt.savefig('Raw_PS_{target_name}.png')
+plt.savefig(f'Raw_PS_{target_name}.png')
 plt.show()
 
 # Remove spurious signals
@@ -69,7 +69,7 @@ plt.xlim(0,x_max)
 plt.ylim(0,y_max) 
 plt.xlabel("Frequency (Hz)")
 plt.ylabel("Power")
-plt.savefig('Clean_PS_{target_name}.png')
+plt.savefig(f'Clean_PS_{target_name}.png')
 plt.show()
 
 # Significance of signal: signal - mean / std dev
